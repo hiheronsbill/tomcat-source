@@ -32,6 +32,7 @@ mvn.properties
 .settings
 .idea
 /.idea/
+/target/
 .vscode
 *.iml
 *.ipr

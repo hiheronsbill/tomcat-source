@@ -1630,7 +1630,7 @@ public class NioEndpoint extends AbstractJsseEndpoint<NioChannel,SocketChannel> 
 
     /**
      * This class is the equivalent of the Worker, but will simply use in an
-     * external Executor thread pool.
+     * external Executor thread pool.œ
      */
     protected class SocketProcessor extends SocketProcessorBase<NioChannel> {
 

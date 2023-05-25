@@ -11,11 +11,13 @@ public class BbsServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.printf("-------------- GET: bbs servlet  ---------------");
+        resp.getWriter().append("-------------- GET: bbs servlet  ---------------").append(req.getContextPath());
     }
 
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.printf("-------------- POST: bbs servlet  ---------------");
+        resp.getWriter().append("-------------- POST: bbs servlet  ---------------").append(req.getContextPath());
     }
 }
